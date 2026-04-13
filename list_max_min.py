@@ -1,5 +1,7 @@
 fruits =["Mango", "Banana", "Apple", "Kiwi","Orange", "Guava","Pineapple", "Watermelon"]
 max_fruits = max(fruits)
+# max() displays alphabetically max ie later alphabet
+#min() displays alphabeticall min ie which occurs first
 min_fruits = min(fruits)
 print(max_fruits)
 print(min_fruits)

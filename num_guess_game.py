@@ -1,6 +1,7 @@
 import random
 num = int(input('Enter your guess:'))
 num_to_guess = random.randint(1,100)
+# random.randit() generates random num of given range
 while num != num_to_guess:
     if num > num_to_guess:
         print(f"Number is smaller than {num}")
